@@ -457,7 +457,9 @@ public class winInfo extends javax.swing.JDialog implements Runnable{
         Ticket ticket = new Ticket();
         ticket.AddCabecera("Universidad Nacional");
         ticket.AddCabecera(ticket.DarEspacio());
-        ticket.AddCabecera("Hermilio Valdizan");
+        ticket.AddCabecera("HERMILIO VALDIZAN");
+        ticket.AddCabecera(ticket.DarEspacio());
+        ticket.AddCabecera("comedor universitario");
         ticket.AddCabecera(ticket.DarEspacio());
         ticket.AddCabecera(ticket.DarEspacio());
         ticket.AddCabecera(""+lblestado.getText()+" "+lblOrden.getText());
